@@ -20,16 +20,8 @@ fitness: 21.04
 
 ## Using
 
-### Linux
-if PC have CUDA available:
 install requirements `pip install -r requirements.txt`
-
-if not, you can just install `opencv-python`, `ultralytics`
 
 you can further train this model in [notebook](./Yolo_train.ipynb)
 
-you can also run the [main script](./main.py) for UI inference section. (not tested yet)
-
-### Windows
-Windows is not naive support GPU acceleration so you can run [main script](./main.py) or train model with CPU.
-install: `opencv-python`, `ultralytics`
+you can also run the [main script](./main.py) for UI inference section.
