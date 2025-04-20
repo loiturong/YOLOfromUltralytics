@@ -30,7 +30,7 @@ def run_yolo_inference(save: bool = False):
             # Get the detected image (with annotations)
             img_array = result.plot()  # Generates annotated image as a numpy array
 
-            # Handle color conversion (from BGR to RGB if needed)
+            # Handle color conversion (from BGR to RGB)
             if img_array.shape[-1] == 3:  # Check if the image has 3 color channels
                 img_array = cv2.cvtColor(img_array, cv2.COLOR_BGR2RGB)
 
